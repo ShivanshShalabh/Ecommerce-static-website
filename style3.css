@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: powderblue; */
+    background: #000428;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/* CSS of title starts  here */
+
+#title {
+    border: 1px solid black;
+    display: flex;
+    /* height: 1%; */
+    /* background: #2b2b2b; */
+    color: white;
+}
+
+#title div {
+    margin: .5% auto;
+    /* border: 1px solid red; */
+    width: 33%;
+}
+
+#search-box {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+#search-box input {
+    border: none;
+    font-size: 1.3rem;
+    margin-left: 4%;
+    border: 2px solid rgb(0, 0, 0);
+    height: 85%;
+    font-family: 'Exo 2', sans-serif;
+    width: 50%;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    text-align: center;
+    background: none;
+    color: black;
+    background: rgb(255, 255, 10);
+    outline: none;
+    border-right: none;
+}
+
+#search-btn {
+    height: 85%;
+    width: 10%;
+    border: 2px solid rgb(0, 0, 0);
+    border-left: none;
+    display: flex;
+    background-color: rgb(138, 138, 138);
+    align-items: center;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    justify-content: center;
+}
+
+#search-btn svg {
+    height: 90%;
+    margin: auto;
+    width: 100%;
+}
+
+#name-box p {
+    width: 100%;
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Do Hyeon', sans-serif;
+}
+
+#login-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#login-box button {
+    outline: none;
+    margin-right: 10%;
+    height: 80%;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 1.3rem;
+    width: 20%;
+    min-width: 58.4688px;
+    border: none;
+    border-radius: 10px;
+    border: 2px inset rgb(173, 173, 173);
+    cursor: pointer;
+    transition: all ease-in-out 1s;
+}
+
+#login-box button:hover {
+    color: white;
+    background: none;
+    border: none;
+}
+
+/* CSS of title ends here */
+
+/* CSS of Navbar starts here */
+
+nav {
+    display: flex;
+    background-color: rgb(168, 168, 168);
+    height: 10%;
+    border: 2px solid white;
+    border-left: none;
+    border-right: none;
+}
+
+nav div {
+    margin: 0 auto;
+    width: 25%;
+    border-right: 2px solid black;
+}
+
+nav div a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .7rem;
+    text-decoration: none;
+    color: black;
+    /* margin: 2% 0; */
+    font-family: 'Changa', sans-serif;
+    width: 100%;
+    text-align: center;
+}
+
+nav div a p {
+    margin-left: 2%;
+}
+
+#home-icon {
+    margin-bottom: 1.7%;
+}
+
+#deal-icon {
+    margin-bottom: 2% !important;
+}
+
+#new-icon {
+    margin-bottom: 1%;
+}
+
+/* CSS of navbar ends here */
+
+/* CSS of content starts here */
+
+#content {
+    /* background-color: grey; */
+    margin: 2% .5%;
+    color: white;
+}
+
+#content div {
+    /* display: flex; */
+    margin: 1% .5%;
+}
+
+.product-img {
+    width: 30%;
+    height: 100%;
+    margin: 0 auto !important;
+}
+
+.product-img img {
+    max-height: 100%;
+    margin: 0 auto;
+    height: 100%;
+    /* max-width: 100%; */
+    width: 100%;
+    /* min-width: 255.594px;
+    min-height: 171.719px; */
+    /* min-height: 266.875px; */
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+.product-detail {
+    padding-left: .5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pt-name {
+    font-size: 2.5rem;
+    font-family: 'Do Hyeon', sans-serif;
+    border-left: 3px solid white;
+    padding-left: 1%;
+}
+
+.addtocart, .buynow {
+    font-size: 1.7rem;
+    padding: 2%;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all ease-in-out 1s;
+    outline: none;
+}
+
+.addtocart:hover, .buynow:hover {
+    /* font-size: 1.9rem; */
+    background: none;
+    outline: none;
+    color: white;
+}
+
+.pt-desc {
+    font-size: 1.7rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.ptbtns-box {
+    display: flex;
+    width: 100%;
+}
+
+.ptbtns-box div {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ptbtns-box div button {
+    padding: 1%;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.stars-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.stars-box svg {
+    fill: gold;
+}
+
+.stars-box figcaption {
+    margin-left: 1%;
+}
+
+/* CSS of content ends here */
