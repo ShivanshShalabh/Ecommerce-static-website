@@ -1,2 +1,1 @@
-# Shivansh-Shalabh-Project
-# Made this website within few hours :) Around 6-8 hrs.
+# A webpage which I made for fun on a weekend. Beginner level but nice practice :)
